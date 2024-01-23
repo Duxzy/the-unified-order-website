@@ -1,0 +1,42 @@
+{% extends "base-page.html" %}
+{% block content %}
+
+<div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <img src="{{url_for('static', filename='TheUnifiedOrder.png')}}" class="img-fluid" alt="The Unified Order Home Image Raptor">
+      </div>
+      <div class="col">
+        <br><br>
+        <h2 class="text-justify" style="color: white;">🌟 The Unified Order is a social first clan</h2>
+        <p class="text-justify" style="color: white;">Created to provide a welcoming and uplifting community. We provide a learner friendly environment to help you progress your account through skilling and pvm alike. We've been going strong for over 11 years.</p>
+        <br>
+        <h2 class="text-justify" style="color: white;">👋 We have a mature and diverse mix of members</h2>
+        <p class="text-justify" style="color: white;">Ranging from the mid-20s to retirement age. Our members consist of college students, full-time workers, folks with families, try-hards and bankstanding xp wasters, all active and here to enjoy the game. </p>
+        <br>
+        <h2 class="text-justify" style="color: white;">🎉 We currently have 350+ members</h2>
+        <p class="text-justify" style="color: white;">We've been growing quickly. We welcome all accounts from pvm seasoned mains to brand new hardcore ironman players.</p></div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row text-center">
+        <div class="col-2"></div>
+        <div class="col-sm">
+            <img src="{{url_for('static', filename='SolakBlurp.png')}}" class="img-fluid" alt="Solak Icon">
+            <h3 class="text-justify" style="color: white;">Join Our PVM Bingos</h3>
+            <p class="text-justify" style="color: white;">PVM Bingos are events designed to get you involved, killing bosses with a team of other players. Chase rare drops and knock out all the bingo board tiles before the other teams to win.</p>
+        </div>
+        <div class="col-sm">
+            <img src="{{url_for('static', filename='TonysMattockBlurp.png')}}" class="img-fluid" alt="Solak Icon">
+            <h3 class="text-justify" style="color: white;">Join Our Skilling Showcases</h3>
+            <p class="text-justify" style="color: white;">Skilling showcases task you with completing a skilling based task. These add ribbons to your player page if you're a member of TUO.</p>
+        </div>
+        <div class="col-sm">
+            <img src="{{url_for('static', filename='OSHBlurp.png')}}" class="img-fluid" alt="Solak Icon">
+            <h3 class="text-justify" style="color: white;">Join Our Clue Openings</h3>
+            <p class="text-justify" style="color: white;">Clue openings are a great way to get involved and have some fun with our growing clue community. Stack those caskets and open them with us at the next one!</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+{% endblock %}

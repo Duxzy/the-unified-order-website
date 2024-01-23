@@ -50,8 +50,14 @@ return render_template('main/home-page.html')
 ### Static Assets
 For now let's store static assets in the static directory under an appropriate subdirectory
 
-### Flask App
+## Flask App & Running
+
 For local testing run flask in a development state, enables hot reloading:
 ```
 flask --debug run
 ```
+For any command not found errors, be sure flask is installed and python is in your path
+
+## Hosting, SSL
+* Hosting is through heroku via the ```Procfile.py```
+* SSL through cloudflare

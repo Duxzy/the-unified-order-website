@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def homepage():
-     return render_template('home-page.html')
+     return render_template('main/home-page.html')

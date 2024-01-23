@@ -1,28 +1,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="static/TUO-Brand.png" alt="Logo" width="80" height="80">
+    <img src="static/main/TUO-Brand.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">TUO Website</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+   
   </p>
 </div>
 
 ### Built With
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* Flask
+*  Bootstrap
 
 <!-- Installation -->
 ## Installation
@@ -45,15 +37,15 @@ $ pip install -r requirements.txt
 
 ## Project Structure
 ### Logic 
-URL Routes, backend logic, etc. for the moment live in 
-```
-app.py
-```
+URL Routes, backend logic, etc. for the moment live in ```app.py```
+
 If we build out some huge app for a bingo we'll add another directory
 ### HTML Templates
 Are called from the templates directory by default in flask applications.
 Reference them in ```app.py``` with code:
-```return render_template('main/home-page.html')```
+```
+return render_template('main/home-page.html')
+```
 
 ### Static Assets
 For now let's store static assets in the static directory under an appropriate subdirectory
